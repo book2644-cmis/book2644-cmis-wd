@@ -1,0 +1,11 @@
+ls <directory name>:  List contents of a directory
+cd: Go home.
+cd <directory name>:  Change directory
+cd ..: Go up
+cat <file name>: View the contents of a file
+gedit <file name> & : create a file
+
+git clone --config="http.proxy=http://book2644:book2644@192.168.2.1:8080" https://github.com/book2644-cmis/book2644-cmis-wd.git
+git add <file name>
+git commit -m "Commit Comment"
+git push
