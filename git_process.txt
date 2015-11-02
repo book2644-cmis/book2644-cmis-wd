@@ -1,0 +1,15 @@
+Instruction
+1: Enter the terminal, a black square icon at the bottom of your computer screen.
+2: Now you should see a green text, that is your computer name. On the internet, enter github.com by your account. Copy your clone link in your created repository folder. The link structure should look like this: git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git Then paste the link you copied into the terminal and then click enter. 
+3. Before you will create a file you have to enter into your repository folder first. Type " cd <your repository name> " then enter. You can just type a first letter of your repository and click tab button. It will automatically fill in the text you wanted. Example: cd book2644-cmis-wd/
+4. A " ~/ " should appeared in front of your repository name. 
+5. Type " gedit <file name> & " then enter to create your desiring folder. 
+6. Now that you have created a file. Type " git add <your filename> " then enter. 
+7. Next type " git commit -m "Commit <description of what you did>" ". After you fill in your description, click enter. 
+8. Type in " git push" then enter.
+9. A username text should appear. Enter your username of github.com then enter. 
+10. A password text should appear. Type in you password then enter. Your password text in this step will be invisible. 
+11. Done. You have added a file into your github. 
+
+
+
