@@ -9,3 +9,12 @@ git clone --config="http.proxy=http://book2644:book2644@192.168.2.1:8080" https:
 git add <file name>
 git commit -m "Commit Comment"
 git push
+
+ls: show content
+ls * or !ls * : select all folders
+sftp book2644@cmis-hsteacher
+password:saQ09sN8Rt3oc
+put <filename> :put file on the web site
+put * : put all selected folders on web
+ls *<letter>* or ls *.<ex:txt>: find or selected the file
+rm <filename> :remove file on the web site
