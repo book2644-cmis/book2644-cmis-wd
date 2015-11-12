@@ -1,6 +1,38 @@
-h1 {color:blue;text-align:center; font-size:70px; font-family: "Courier New", Courier, Monospace; border-style: outset;}
-p {color:black;text-align:center; font-size:30px; font-family: "Courier New", Courier, Monospace; border-style: outset;}
+h1 {
+color : blue;
+text-align : center;
+font-size : 60px;
+font-family : "Courier New", Courier, monospace;
+border-style : double;
+border-top-style : dotted;
+border-width : 20px;
+background-color : #f0f8ff;
+}
+p {
+color : white;
+text-align : center;
+font-size : 30px;
+font-family : "Courier New", Courier, Monospace;
+border-style : outset;
+background-color : #6495ed;
+}
+p2 {
+color : white;
+text-align : center;
+font-size : 30px;
+font-family : "Courier New", Courier, Monospace;
+border-style : outset;
+background-color : #6495ed;
+}
 body {
-    background-color: #FFFFFF;
-
+background-color : #4169e1;
+}
+footer {
+text-align : center;
+background-color : #e0ffff;
+font-family : "Lucida Console", Lucida, monospace;
+border-style : groove;
+border-color : aqua blue aqua blue;
+border-width : 4px 6px 8px 10px;
+}
 
