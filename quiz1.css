@@ -1,0 +1,49 @@
+h1 {
+color : yellow;
+font-family : "Courier New", Courier, monospace;
+background-color : #f0f8ff;
+}
+p {
+color : blue;
+font-size : 16px;
+border-style : solid;
+background-color : #FF0000;
+}
+h2 {
+color : red;
+background-color : #f0f8ff;
+}
+h3 {
+color : yellow;
+background-color : #f0f8ff;
+}
+p {
+color : blue;
+font-size : 16px;
+border-style : solid;
+background-color : #6495ed;
+}
+h4 {
+color : yellow;
+font-size : 20px;
+background-color : #f0f8ff;
+}
+h5 {
+color : yellow;
+font-size : 24px;
+background-color : #f0f8ff;
+}
+h6 {
+color : yellow;
+font-size : 20px;
+background-color : #f0f8ff;
+}
+h7 {
+color : yellow;
+font-size : 20px;
+background-color : #f0f8ff;
+}
+footer {
+background-color : #e0ffff;
+font-family : "Lucida Console", Lucida, monospace;
+}
