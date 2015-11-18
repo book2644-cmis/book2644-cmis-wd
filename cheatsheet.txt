@@ -10,6 +10,16 @@ git add <file name>
 git commit -m "Commit Comment"
 git push
 
+turning in work:
+enter your repository
+python
+public.html: book2644@cmis-hsteacher
+yes 
+then enter your password
+
+mkdir : make a folder
+rmdir : remove a folder
+
 ls: show content
 ls * or !ls * : select all folders
 sftp book2644@cmis-hsteacher
