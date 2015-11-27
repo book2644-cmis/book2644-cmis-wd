@@ -7,17 +7,21 @@
 		<meta charset="utf-8"/>	
 		<h1> Tables
 		</h1>
-		<p> 
-		</p>
+		<ul>
+			<li><a href="http://localhost:8000">Home</a></li>
+			<li><a href="http://localhost:8000/listsandlinks/">Lists and Links</a></li>
+		</ul>
 		<h2> Simple grid
 		</h2>
-		<p> 
 			<table border="1" style="width:5%">
+				<thead>
 			  <tr>
 				<td>A</td>
 				<td>B</td>		
 				<td>C</td>
 			  </tr>
+				</thead>
+				<tbody>
 			  <tr>
 				<td>1</td>
 				<td>2</td>		
@@ -33,20 +37,24 @@
 				<td>8</td>		
 				<td>9</td>
 			  </tr>
+				</tbody>
+				<tfoot>
 			  <tr>
 				<td>10</td>
 				<td>11</td>		
 				<td>12</td>
 			  </tr>
+				</tfoot>
 			</table>
-		</p>
 		<h3> Calender
 		</h3>
-			<p> 
 			<table border="1" style="width:5%">
+				<thead>
 			  <tr>
-				<th>December 2015</th>
+				<th colspan="10">December 2015</th>
 			  </tr>
+				</thead>
+				<tbody>
 			  <tr>
 				<th>Mon</th>
 				<th>Tue</th>		
@@ -92,6 +100,8 @@
 				<td>26</td>
 				<td>27</td>
 			  </tr>
+				</tbody>
+				</tfoot>
 			  <tr>
 				<td>28</td>
 				<td>29</td>		
@@ -101,25 +111,29 @@
 				<td></td>
 				<td></td>
 			  </tr>
+				</tfoot>
 			  <tr>
-    			<td>Created by: Me!</td>
+    			<td colspan="10">Created by: Me!</td>
 			  </tr>
 			</table>
-			</p>
 		<h4> Class Schedule
 		</h4>
-		<p> 
-			<table border="1" style="width:15%">
+			<table border="1" style="width:20%">
+				<thead>
 			  <tr>
 				<th>Period</th>
 				<th>Class info</th>
+				</thead>
+				<tbody>
 			  <tr>
 				<td rowspan="2">1</td>
 				<td>Mr.Kieffer</td>			
 			  </tr>
+				</tbody>
 			  <tr>
 				<td>Computer Science</td>
 			  </tr>
+				<tfoot>
 			  <tr>
 				<td rowspan="2">2</td>
 				<td>Mr.Knox</td>				
@@ -127,17 +141,13 @@
 			  <tr>
 				<td>History</td>
 			  </tr>
-			</table>
-		</p>		
+				</tfoot>
+			</table>		
 	</head>
 	<body>
 		<header>
 		</header>
 		<nav> 
-		<ul>
-			<li><a href="http://localhost:8000/index.html">Home</a></li>
-			<li><a href="http://localhost:8000/listsandlinks/">Lists and Links</a></li>
-		</ul>
 		</nav>
 		<main> 
 		</main>
