@@ -1,6 +1,20 @@
 h1 {
     background-color: lightblue;
-    width: 1000px;
+    width: 700px;
+    padding: 25px;
+    border: 25px groove navy;
+    margin: 0px;
+}
+nav~footer {
+    background-color: aqua;
+    width: 300px;
+    padding: 15px;
+    border: 25px inset navy;
+    margin: 25px;
+}
+table {
+	background-color: white;
+    width: 500px;
     padding: 25px;
     border: 25px solid navy;
     margin: 25px;
@@ -20,3 +34,4 @@ footer {
     border: 25px solid navy;
     margin: 25px;
 }
+p ~ h1 {color: #FF0066;}
