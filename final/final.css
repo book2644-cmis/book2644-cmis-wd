@@ -1,0 +1,31 @@
+h1 {
+color : white;
+text-align : center;
+font-size : 70px;
+font-family: 'Economica', sans-serif;
+}
+h2 {
+color : gray;
+text-align : center;
+font-size : 30px;
+font-family : "Courier New", Courier, Monospace;
+}
+p {
+color : black;
+text-align : center;
+font-size : 20px;
+font-family : "Courier New", Courier, Monospace;
+}
+body {
+background-color : #F0FFFF;
+}
+footer {
+text-align : center;
+font-family : "Lucida Console", Lucida, monospace;
+font-size : 15px
+}
+nav {
+text-align : center;
+font-family : "Lucida Console", Lucida, monospace;
+font-size : 25px
+}
